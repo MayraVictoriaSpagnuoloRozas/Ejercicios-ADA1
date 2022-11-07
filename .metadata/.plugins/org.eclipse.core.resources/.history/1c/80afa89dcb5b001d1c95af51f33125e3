@@ -1,0 +1,26 @@
+package inicial;
+
+import java.util.Scanner;
+
+public class AppEjercicioDolares {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int dolar=1;
+		int dineroM=10;
+		int resultado=0;
+		
+		System.out.print("Ingrese la cantidad de dinero que quiere convertir a dolares");
+		Scanner in= new Scanner(System.in);
+		int dineroM = in.nextInt();
+		
+		for dolar=1 with paso 1 hacer
+				resultado= dineroM/dolar;
+		
+		System.out.print("La cantidad de dolares que puede convertir es: "+ resultado);
+				
+		
+
+	}
+
+}
